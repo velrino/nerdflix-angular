@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nerdflix';
+  images = [1, 2, 3, 4,5,6].map((i) => `https://raw.githubusercontent.com/nerdzao/academy/nerdflix/front/angular/src/assets/movies/${i}.jpg`);
 }
